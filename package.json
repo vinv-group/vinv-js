@@ -1,0 +1,34 @@
+{
+  "name": "vinv-parser",
+  "version": "1.0.1",
+  "description": "Creates vinv format from json and json from vinv format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinv-group/vinv-js.git"
+  },
+  "keywords": [
+    "vinv",
+    "forest",
+    "inventory",
+    "json",
+    "javascript"
+  ],
+  "author": "Gerrit Balindt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinv-group/vinv-parser/issues"
+  },
+  "homepage": "https://github.com/vinv-group/vinv-parser#readme",
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.9",
+    "ajv": "^8.6.0",
+    "ajv-formats": "^2.1.0",
+    "ajv-formats-draft2019": "^1.4.3",
+    "nanoid": "^3.1.23",
+    "vinv-schema": "vinv-group/vinv-schema"
+  }
+}
